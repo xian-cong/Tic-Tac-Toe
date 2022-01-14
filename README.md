@@ -4,6 +4,12 @@ Game developed with C language. There are 3 modes for this game:
 - Player vs Smart AI Computer
 - Player vs Random AI Computer
 
+## To Play
+Code is developed in Linux and compiled using **gcc**. To run the code, compile and run in **Terminal** with:
+```
+gcc PlayerVsComputer.c && ./a.out
+```
+
 ## Smart AI
 Algoritm used for Smart AI is **reactive planning algorithm**:
 1. If the computer can immediately win on its current move, it will play the winning move and ends the game.
