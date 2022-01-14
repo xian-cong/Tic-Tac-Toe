@@ -5,7 +5,7 @@ Game developed with C language. There are 3 modes for this game:
 - Player vs Random AI Computer
 
 ## Smart AI
-Algoritm used for Smart AI is reactive planning algorithm:
+Algoritm used for Smart AI is **reactive planning algorithm**:
 1. If the computer can immediately win on its current move, it will play the winning move and ends the game.
 2. If the opponent is about to win on the next move, it can block the opponents’ winning move.
 3. If neither above 2 scenarios occurs, the computer falls back to the random AI.
